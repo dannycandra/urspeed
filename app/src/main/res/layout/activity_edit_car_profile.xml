@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/global_margin">
+
+        <com.hotpot.urspeed.android.gui.CropImageView
+            android:id="@+id/car_image"
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/profil_add_pic"
+            android:contentDescription=""
+            android:scaleType="centerCrop"/>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/car_image"
+            android:layout_marginTop="@dimen/global_margin_very_small" >
+
+            <LinearLayout
+                android:id="@+id/input_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/vmax_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/global_margin_extra_small"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/auto4"/>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/global_margin_extra_small"
+                        app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+                        <EditText
+                            android:id="@+id/brand_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/activity_edit_car_profile_hint_brand"
+                            android:inputType="textCapSentences"
+                            android:singleLine="true"/>
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/transport1162"/>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/global_margin_extra_small"
+                        app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+                        <EditText
+                            android:id="@+id/model_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignEnd="@+id/brand_text"
+                            android:layout_alignRight="@+id/brand_text"
+                            android:layout_below="@+id/brand_text"
+                            android:hint="@string/activity_edit_car_profile_hint_model"
+                            android:inputType="textCapSentences"
+                            android:singleLine="true"/>
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/engine2"/>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/global_margin_extra_small"
+                        app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+                        <EditText
+                            android:id="@+id/engine_size_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignEnd="@+id/model_text"
+                            android:layout_alignRight="@+id/model_text"
+                            android:layout_below="@+id/model_text"
+                            android:hint="@string/activity_edit_car_profile_hint_engine_size"
+                            android:inputType="textCapSentences"
+                            android:singleLine="true"/>
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/horse83"/>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/global_margin_extra_small"
+                        app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+                        <EditText
+                            android:id="@+id/horsePower_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignEnd="@+id/engine_size_text"
+                            android:layout_alignRight="@+id/engine_size_text"
+                            android:layout_below="@+id/engine_size_text"
+                            android:hint="@string/activity_edit_car_profile_hint_horsepower"
+                            android:inputType="textCapSentences"
+                            android:singleLine="true"/>
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/calendar70"/>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/global_margin_extra_small"
+                        app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+                        <EditText
+                            android:id="@+id/prod_year_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignEnd="@+id/horsePower_text"
+                            android:layout_alignRight="@+id/horsePower_text"
+                            android:layout_below="@+id/horsePower_text"
+                            android:hint="@string/activity_edit_car_profile_hint_production_year"
+                            android:inputType="textCapSentences"
+                            android:singleLine="true"/>
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</LinearLayout>

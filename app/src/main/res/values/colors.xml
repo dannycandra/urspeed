@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#3F51B5</color>
+
+    <!-- Default Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey">#5f5d63</color>
+    <color name="grey_light">#7c7575</color>
+    <color name="transparent_black_30">#30000000</color>
+    <color name="transparent_black_50">#50000000</color>
+    <color name="transparent_black_80">#80000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="result_list_color">#1c2c3c</color>
+    <color name="title_color">#C8D3EF</color>
+
+    <!-- text color -->
+    <color name="result_text_color">#666666</color>
+
+    <!-- field background color -->
+    <color name="field_background_color">#60615c</color>
+</resources>

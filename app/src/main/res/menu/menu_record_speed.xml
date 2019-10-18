@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.hotpot.urspeed.android.activity.RecordSpeedActivity">
+
+    <item
+        android:id="@+id/action_day"
+        android:orderInCategory="100"
+        android:icon="@drawable/sun"
+        android:title="@string/activity_record_speed_retry_button"
+        android:visible="false"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_night"
+        android:orderInCategory="200"
+        android:icon="@drawable/moon"
+        android:title="@string/activity_record_speed_retry_button"
+        android:visible="false"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_retry"
+        android:orderInCategory="300"
+        android:icon="@drawable/retry"
+        android:title="@string/activity_record_speed_retry_button"
+        android:visible="true"
+        app:showAsAction="always"/>
+</menu>

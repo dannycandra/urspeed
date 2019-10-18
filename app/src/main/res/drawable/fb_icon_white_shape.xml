@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#ffffffff"/>
+
+    <corners android:bottomRightRadius="@dimen/fb_radius"
+             android:bottomLeftRadius="@dimen/fb_radius"
+             android:topLeftRadius="@dimen/fb_radius"
+             android:topRightRadius="@dimen/fb_radius"/>
+</shape>

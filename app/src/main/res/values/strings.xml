@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- general message -->
+    <string name="app_name">UrSpeed</string>
+    <string name="facebook_app_id">1624273961168547</string>
+
+    <string name="not_available">n/a</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="close">Close</string>
+
+    <!-- Dialog title -->
+    <string name="warning_title">Warning</string>
+
+    <!-- Error Message -->
+    <string name="error_msg_facebook_not_installed">You need to install facebook app to share on facebook</string>
+
+    <!-- main activity -->
+    <string name="activity_main_title">Urspeed</string>
+    <string name="activity_main_start_button">Start</string>
+    <string name="activity_main_result_button">My results</string>
+    <string name="activity_main_error_msg_no_profile_selected">"No profile has been selected"</string>
+    <string name="activity_main_default_brand">Please select your profile</string>
+    <string name="activity_main_alert_text">This application is intended for entertainment only! Please make sure you drive carefully, adhere to all speed limits and traffic regulations in your respective country and come to a safe standstill before you check your measurements. Do not use the application for speeding or racing. Do not check the display while driving. HotPot cannot be held responsible for any damage inflicted on persons or objects of any amount. The use of this application is at your own risk. Values may vary and are subject to change depending on different conditions.</string>
+
+    <!-- record speed activity -->
+    <string name="activity_record_speed_title">Measure</string>
+    <string name="activity_record_speed_dialog_gps_question">Your GPS seems to be disabled, you have to enable it</string>
+    <string name="activity_record_speed_retry_button">Retry</string>
+    <string name="activity_record_speed_day_button">Day</string>
+    <string name="activity_record_speed_night_button">Night</string>
+    <string name="activity_record_speed_back_button">Back</string>
+    <string name="activity_record_speed_alert_text">Caution, The measurement will be also triggered by g-force. Vibrations could trigger the start of the measurement. In that case just press refresh button to restart it. We advice you to use a Smartphone-holder. Once again we would like to remind you that this is an entertainment app. The accuracy of the results depends on GPS quality, the app doesnt have any influence in that part.</string>
+
+    <!-- result activity -->
+    <string name="activity_result_title">Results</string>
+    <string name="activity_result_clear_records_confirmation">Delete all records, continue?</string>
+    <string name="activity_result_clear_records">Clear records</string>
+
+    <!-- edit car profile activity -->
+    <string name="activity_edit_car_profile_title">Profile</string>
+    <string name="activity_edit_car_profile_save">Save</string>
+    <string name="activity_edit_car_profile_delete">Delete</string>
+    <string name="activity_edit_car_profile_delete_confirmation">By Deleting this profile all your results that associated with this profile will also be deleted, continue?</string>
+    <string name="activity_edit_car_profile_hint_brand">Brand</string>
+    <string name="activity_edit_car_profile_hint_model">Model</string>
+    <string name="activity_edit_car_profile_hint_engine_size">Engine size (CC)</string>
+    <string name="activity_edit_car_profile_hint_horsepower">Horsepower (HP)</string>
+    <string name="activity_edit_car_profile_hint_production_year">Production year</string>
+    <string name="activity_edit_car_profile_maximum_speed">Highest speed</string>
+    <string name="activity_edit_car_profile_delete_profile_toast">Profile deleted</string>
+    <string name="activity_edit_car_profile_update_profile_toast">Profile updated</string>
+    <string name="activity_edit_car_profile_save_error_missing_mandatory_toast">Fill brand to save</string>
+
+    <!-- alert dialog -->
+    <string name="alert_dialog_do_not_show_again">Do not show again</string>
+
+    <!-- max speed activity -->
+    <string name="activity_max_speed_title">Measure max speed</string>
+    <string name="activity_max_speed_hint">Highest speed</string>
+
+    <!-- State -->
+    <string name="state_init">Search GPS</string>
+    <string name="state_waiting">Waiting...</string>
+    <string name="state_waiting_info">Current speed must be adjusted to %s</string>
+    <string name="state_ready">Ready</string>
+    <string name="state_ready_info_0">Timer will be started automatically, once an acceleration is detected</string>
+    <string name="state_ready_info">Once your speed reach %s timer will be started automatically</string>
+    <string name="state_running">Running</string>
+    <string name="state_done">Finish</string>
+
+    <string-array name="speeds_array_kmh">
+        <item>0-100 km/h</item>
+        <item>0-200 km/h</item>
+        <item>50-100 km/h</item>
+        <item>100-150 km/h</item>
+        <item>100-200 km/h</item>
+        <item>Maximum speed</item>
+    </string-array>
+
+    <string-array name="speeds_array_mph">
+        <item>0-60 mph</item>
+        <item>0-100 mph</item>
+        <item>60-100 mph</item>
+        <item>Maximum speed</item>
+    </string-array>
+
+    <string-array name="set_car_picture">
+        <item>Add photo</item>
+        <item>Remove photo</item>
+    </string-array>
+
+    <!-- constants -->
+    <string name="acceleration_threshold">1</string>
+    <string name="gps_tolerance">1</string>
+
+    <!-- unit -->
+    <string name="horse_power_unit">HP</string>
+    <string name="seconds_unit">seconds</string>
+    <string name="seconds_short_unit">s</string>
+    <string name="speed_unit_kmh">km/h</string>
+    <string name="speed_unit_mph">mph</string>
+
+    <!-- car card texts-->
+    <string name="card_acceleration">Acceleration</string>
+    <string name="card_vmax">V-Max</string>
+    <string name="card_horse_power">Power</string>
+    <string name="card_build_year">Build year</string>
+    <string name="card_engine_size">Engine size</string>
+
+    <string name="pick_image_intent_text">Choose image</string>
+    <string name="title_activity_facebook_share">FacebookShareActivity</string>
+
+    <!-- Banner ad unit Id -->
+    <string name="banner_ad_unit_id">ca-app-pub-6601388206030043/4223534212</string>
+    <string name="warning">Warning</string>
+    <string name="aaactivity_edit_car_profile_save_error_missing_mandatory_toast">Please enter brand</string>
+</resources>

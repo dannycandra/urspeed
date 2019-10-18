@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- general message -->
+    <string name="app_name">UrSpeed</string>
+
+
+    <string name="activity_main_title">Urspeed</string>
+    <string name="not_available">n.a.</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+
+    <!-- Dialog title -->
+    <string name="warning">Warnung</string>
+
+    <!-- Error Message -->
+    <string name="error_msg_facebook_not_installed">Facebook App nicht gefunden</string>
+
+    <!-- main activity -->
+    <string name="activity_main_start_button">Starten</string>
+    <string name="activity_main_result_button">Ergebnisse</string>
+    <string name="activity_main_error_msg_no_profile_selected">"Kein Profil ausgewählt"</string>
+    <string name="activity_main_default_brand">Bitte wähle dein Profil aus</string>
+    <string name="activity_main_alert_text">Diese App dient nur zur reine Unterhaltung. Achte stets auf die StVO. Nutze die App auf eigene Gefahr. Für mögliche Schäden/Unfälle kann keine Haftung übernommen werden</string>
+
+    <!-- record speed activity -->
+    <string name="activity_record_speed_dialog_gps_question">Bitte GPS aktivieren</string>
+    <string name="activity_record_speed_retry_button">Neuer Versuch</string>
+    <string name="activity_record_speed_day_button">Tag</string>
+    <string name="activity_record_speed_night_button">Nacht</string>
+    <string name="activity_record_speed_back_button">Zurück</string>
+    <string name="activity_record_speed_alert_text">Bitte beachten: Der Start der Messung vom Stillstand wird durch die Beschleunigung ausgelöst. Erschütterungen wie z.B. das zuschlagen der Tür oder auch starke Bässe kann die Messung beeinflusen. In diesem Fall bitte die Messung mit dem Button oben rechts neu starten. Wir empfehlen ebenso die Fixierung des Handys an einer Halterung. Nochmals erwähnen wir das diese App nur zur reine Unterhaltung dient. Die Geschwindigkeit und somit die Zeitmessung sind abhängig von der GPS Antenne, wo die App keinen Einfluss hat.</string>
+
+    <!-- result activity -->
+    <string name="activity_result_clear_records_confirmation">Alle Einträge werden gelöscht. Fortsetzen?</string>
+    <string name="activity_result_clear_records">Einträge löschen</string>
+
+    <!-- edit car profile activity -->
+    <string name="activity_edit_car_profile_save">Speichern</string>
+    <string name="activity_edit_car_profile_delete">Löschen</string>
+    <string name="activity_edit_car_profile_delete_confirmation">Beim löschen dieses Profils werden alle Ergebnisse ebenso gelöscht. Fortsetzen?</string>
+
+    <!-- max speed activity -->
+    <string name="activity_max_speed_hint">Höchstgeschwindigkeit</string>
+
+    <!-- State -->
+    <string name="state_init">Suche GPS</string>
+    <string name="state_waiting">Warte...</string>
+    <string name="state_ready">Bereit</string>
+    <string name="state_running">Running</string>
+    <string name="state_done">Fertig</string>
+
+    <string-array name="speeds_array_kmh">
+        <item>0-100 km/h</item>
+        <item>0-200 km/h</item>
+        <item>50-100 km/h</item>
+        <item>100-150 km/h</item>
+        <item>100-200 km/h</item>
+        <item>Maximum speed</item>
+    </string-array>
+
+    <string-array name="speeds_array_mph">
+        <item>0-100 km/h</item>
+        <item>0-200 km/h</item>
+        <item>50-100 km/h</item>
+        <item>100-150 km/h</item>
+        <item>100-200 km/h</item>
+        <item>Maximum speed</item>
+    </string-array>
+
+    <string-array name="set_car_picture">
+        <item>Foto hinzufügen</item>
+        <item>Foto entfernen</item>
+    </string-array>
+
+    <!-- constants -->
+    <string name="acceleration_threshold">1</string>
+    <string name="gps_tolerance">1</string>
+
+    <!-- unit -->
+    <string name="horse_power_unit">PS</string>
+    <string name="seconds_unit">Sekunden</string>
+    <string name="seconds_short_unit">sek</string>
+    <string name="speed_unit_kmh">km/h</string>
+
+    <!-- car card texts-->
+    <string name="card_acceleration">Beschleunigung</string>
+    <string name="card_vmax">V-Max</string>
+    <string name="card_horse_power">Leistung</string>
+    <string name="card_build_year">Baujahr</string>
+    <string name="card_engine_size">Hubraum</string>
+
+    <string name="pick_image_intent_text">Wähle ein Foto</string>
+    <string name="title_activity_facebook_share">FacebookShareActivity</string>
+
+    <!-- Banner ad unit Id -->
+    <string name="banner_ad_unit_id">ca-app-pub-6601388206030043/4223534212</string>
+    <string name="warning_title">Warnung</string>
+    <string name="activity_edit_car_profile_hint_brand">Hersteller</string>
+    <string name="activity_edit_car_profile_hint_engine_size">Hubraum (Liter)</string>
+    <string name="activity_edit_car_profile_hint_horsepower">Leistung (PS)</string>
+    <string name="activity_edit_car_profile_hint_model">Modell</string>
+    <string name="activity_edit_car_profile_hint_production_year">Baujahr</string>
+    <string name="activity_edit_car_profile_maximum_speed">V-Max</string>
+    <string name="close">Schließen</string>
+    <string name="activity_result_title">Ergebnisse</string>
+    <string name="activity_record_speed_title">Messung</string>
+    <string name="activity_max_speed_title">Messung (V-Max)</string>
+    <string name="activity_edit_car_profile_title">Profil</string>
+    <string name="facebook_app_id">1624273961168547</string>
+    <string name="activity_edit_car_profile_delete_profile_toast">Profile wurde gelöscht</string>
+    <string name="aaactivity_edit_car_profile_save_error_missing_mandatory_toast">Bitte Hersteller eintragen</string>
+    <string name="activity_edit_car_profile_update_profile_toast">Profile wurde aktualisiert</string>
+    <string name="activity_edit_car_profile_save_error_missing_mandatory_toast">Hersteller muss angegeben werden</string>
+    <string name="state_waiting_info">Aktuelle Geschwindigkeit muss %s sein</string>
+    <string name="alert_dialog_do_not_show_again">Nicht nochmal anzeigen</string>
+    <string name="speed_unit_mph">mph</string>
+    <string name="state_ready_info">Zeit startet automatisch sobald %s erreicht wird</string>
+    <string name="state_ready_info_0">Bei einer Beschleunigung startet die Zeit automatisch</string>
+</resources>
